@@ -500,7 +500,6 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="lineage" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-11.0" />
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-11.0" />
